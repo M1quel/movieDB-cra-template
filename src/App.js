@@ -21,7 +21,7 @@ function App() {
   // }, [movies])
   return (
     <>
-    <button onClick={() => displayNotification("Du grim")}>Notification</button>
+      <button onClick={() => displayNotification("Du grim")}>Notification</button>
       <Searchbar state={setMovies}/>
       <Router>
         <Moviegrid default path="/" movies={movies}/>
